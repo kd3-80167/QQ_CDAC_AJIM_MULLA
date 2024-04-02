@@ -1,47 +1,27 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Compiled class files
-*.class
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Log files
-*.log
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# BlueJ files
-*.ctxt
+# testing
+/coverage
 
-# Package files
-*.jar
-*.war
-*.ear
+# production
+/build
 
-# Maven build directory
-/target/
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Gradle build directory
-/build/
-
-# Eclipse project files
-.classpath
-.project
-.settings/
-
-# IntelliJ project files
-.idea/
-
-# NetBeans project files
-nbproject/
-
-=======
-# Dependency directories
-node_modules/
-
-# Environment variables file
-.env
-
-# Build files
-build/
-dist/
->>>>>>> 9de87406e7f9002ab094288153afe3b9f271a6a2
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ master
 =======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -66,51 +46,5 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
->>>>>>> master
-=======
-<<<<<<< HEAD
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Package files
-*.jar
-*.war
-*.ear
-
-# Maven build directory
-/target/
-
-# Gradle build directory
-/build/
-
-# Eclipse project files
-.classpath
-.project
-.settings/
-
-# IntelliJ project files
-.idea/
-
-# NetBeans project files
-nbproject/
 
 =======
-# Dependency directories
-node_modules/
-
-# Environment variables file
-.env
-
-# Build files
-build/
-dist/
->>>>>>> 9de87406e7f9002ab094288153afe3b9f271a6a2
-
->>>>>>> b0b57e194b0f0731e10074530b154231511e3bd5
